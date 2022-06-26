@@ -47,16 +47,15 @@ header{
 }
 nav{
     text-align: center;
-    position: relative;
-    height: 105px;
+    position: sticky;
+    height: 80px;
     width: 100%;
     left: 0px;
     top: 0px;
     justify-content: space-evenly;
     background: #000000;
     display: flex;
-
-
+    z-index: 2;
   }
 h1{
     position: relative;
