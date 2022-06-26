@@ -48,12 +48,12 @@ header{
 nav{
     text-align: center;
     position: sticky;
-    height: 80px;
+    height: 60px;
     width: 100%;
     left: 0px;
     top: 0px;
     justify-content: space-evenly;
-    background: #000000;
+    background: #082032;
     display: flex;
     z-index: 2;
   }
@@ -115,18 +115,23 @@ a{
     left: 80px;
     width: 400px;
 }
-.texto{
+.box{
+    background-color: #2C394B;
+    border-color: #2C394B;
+    border-radius: 2%;
+    border-style: solid;
+    width: 420px;
+    height: 540px;
+    top: 10px;
+}
+#texto{
     position: relative;
     text-align: left;
     color: #8190A5;
-    top: 10px;
-    width: 400px;
-    height: 80px;
-    font-family: monospace;
+    font-family : monospace;
     font-size: 20px;
     line-height: 30px;
     left: 80px;
-
 }
 
 .curso{
@@ -190,6 +195,7 @@ a{
     left: 100px;
     bottom: 80px;
     display: flex;
+    z-index: 3;
     
 }
 #imgkratos{
