@@ -62,16 +62,18 @@ h1{
     width: 473px;
     height: 88px;
     top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s ease;
+}
+#h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 62px;
     font-weight: 400;
     font-size: 70px;
     color: #CCDFFF;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.3s ease;
 }
-h1:hover{
+#h1:hover{
     font-size: 80px;
 }
 h2{
@@ -95,13 +97,14 @@ a{
     font-weight: 400;
     font-size: 20px;
     line-height: 39px;
-    color: #B3C9E0;
     text-decoration:none;
 }
 a:hover{
     text-decoration: underline;
 }
-
+#navcolor{
+    color: #B3C9E0;
+}
 .mercado{
     background-color: #072a44;
     width: 100%;
@@ -230,15 +233,9 @@ a:hover{
     background-repeat: no-repeat;
 }
 .rodape{
-    background: #C4DDFF;
+    background: #a9bdd8;
     width: 100%;
-    height: 250px;
-}
-#titulofooter{
-    position: relative;
-    margin-left: 80px;
-    margin-right: auto;
-    display: flex;
+    height: 150px;
 }
 .links{
     margin-left: auto;
@@ -255,6 +252,7 @@ a:hover{
     align-items: center;
     margin: 10px 0;
     flex-wrap: wrap;
+    top: 20%;
 }
 .footer-links img{
     width: 40px !important;
@@ -267,4 +265,21 @@ a:hover{
 }
 .footer-links li{
     list-style: none;
+}
+.footer-menu{
+    text-align: center;
+    position: relative;
+    height: 60px;
+    width: 900px;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.footer-menu li{
+    list-style: none;
+}
+#footercolor{
+    color: #000;
 }
