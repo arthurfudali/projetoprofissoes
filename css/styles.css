@@ -215,12 +215,11 @@ a:hover{
     position: relative;
     margin-left: 40%;
     margin-right: auto;
-    width: 1000px;
-    height: 600px;
-    left: 15;
+    width: 850px;    
     display: flex;
-    bottom: 585px;
+    bottom: 550px;
 }
+/*
 #imgkratos{
     background-image: url("../imagens/raf-grassetti-kratosportrait-wip.jpg");
     background-size: 1000px, 600px;
@@ -231,6 +230,7 @@ a:hover{
     border-color: transparent;
     background-repeat: no-repeat;
 }
+
 #imggeralt{
     background-image: url("../imagens/curso-samsung-ocean-jogo-principal.jpg");
     background-size: 900px, 500px;
@@ -239,7 +239,7 @@ a:hover{
     border-radius: 8px;
     background-repeat: no-repeat;
 }
-
+*/
 .entrevista{
     background-color: #0b2030;
     width: 100%;
@@ -248,7 +248,7 @@ a:hover{
 #video-entrevista{
     position: relative;
     text-align: center;
-    top: 8em;
+    top: 20px;
 }
 .rodape{
     background: #a9bdd8;
@@ -300,4 +300,11 @@ a:hover{
 }
 #footercolor{
     color: #000;
+}
+#tituloentrevista{
+    position: relative;
+    text-align: left;
+    left: 80px;
+    width: 400px;
+    padding-top: 100px;
 }
