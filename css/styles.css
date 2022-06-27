@@ -42,7 +42,7 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     height: 660px;
-    background-image: url("../imagens/designer_games-1130x400.jpg");
+    background-image: url("../imagens/headernova.png");
     text-align: center;
 }
 nav{
@@ -61,7 +61,7 @@ h1{
     position: relative;
     width: 473px;
     height: 88px;
-    top: 40%;
+    top: 30%;
     margin-left: auto;
     margin-right: auto;
     transition: 0.3s ease;
@@ -79,7 +79,7 @@ h1::after{
     line-height: 62px;
     font-weight: 400;
     font-size: 70px;
-    color: #CCDFFF;
+    color: #ffffff;
 }
 #h1:hover{
     font-size: 75px;
@@ -138,8 +138,8 @@ a:hover{
     padding-top: 160px;
 }
 .box{
-    background-color: #2C394B;
-    border-color: #2C394B;
+    background-color: #0b2030;
+    border-color: #0b2030;
     border-radius: 2%;
     width: 420px;
     height: 540px;
