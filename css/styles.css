@@ -148,7 +148,7 @@ a:hover{
 .curso{
     background-color: #000000;
     width: 100%;
-    height: 759px;
+    height: 800px;
 }
 
 .sobre{
@@ -189,6 +189,7 @@ a:hover{
     text-align: left;
     left: 80px;
     width: 400px;
+    padding-top: 100px;
 }
 .img1{
     position: relative;
@@ -202,14 +203,13 @@ a:hover{
 }
 .img2{
     position: relative;
-    margin-right: 200px;
-    margin-left: auto;
+    margin-left: 40%;
+    margin-right: auto;
     width: 1000px;
-    left: 100px;
-    bottom: 80px;
+    height: 600px;
+    left: 15;
     display: flex;
-    z-index: 3;
-    
+    bottom: 585px;
 }
 #imgkratos{
     background-image: url("../imagens/raf-grassetti-kratosportrait-wip.jpg");
@@ -217,6 +217,8 @@ a:hover{
     width: 1000px;
     height: 600px;
     border-radius: 8px;
+    border-style: hidden;
+    border-color: transparent;
     background-repeat: no-repeat;
 }
 #imggeralt{
@@ -228,7 +230,7 @@ a:hover{
     background-repeat: no-repeat;
 }
 .rodape{
-    background: #252525;
+    background: #C4DDFF;
     width: 100%;
     height: 250px;
 }
@@ -237,4 +239,32 @@ a:hover{
     margin-left: 80px;
     margin-right: auto;
     display: flex;
+}
+.links{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+}
+.footer-links{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.footer-links img{
+    width: 40px !important;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.footer-links img:hover{
+    width: 50px !important;
+}
+.footer-links li{
+    list-style: none;
 }
