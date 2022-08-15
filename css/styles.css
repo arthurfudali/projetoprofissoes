@@ -306,3 +306,7 @@ a:hover{
     width: 400px;
     padding-top: 100px;
 }
+.interna{
+    position: relative;
+    padding: 20px;
+}
