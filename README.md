@@ -1,2 +1,2 @@
 # projetoprofissoes
-trabalho do projeto de profissoes sobre desing de games
+Site criado para o trabalho de "Projeto profissões" da ETEC de registro com o tema de Game Design
